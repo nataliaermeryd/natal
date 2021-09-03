@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #first-section, 
+  #second-section,
+  #third-section,
+  #fourth-section {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+  #first-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent-arn2-1.xx.fbcdn.net/v/t1.6435-9/241044711_1853033998212816_407059339762192905_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=0debeb&_nc_ohc=6Py8hmUA4XgAX9X-0HP&tn=j8Gh68vbkhORwnTv&_nc_ht=scontent-arn2-1.xx&oh=653d01acf450a3099222408b8ee32ad6&oe=615460C6");
+  }
+
+  #second-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent-arn2-1.xx.fbcdn.net/v/t1.6435-9/58461774_1128619247320965_1025672721821859840_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=c5rYOZsAxucAX9sT-pS&_nc_ht=scontent-arn2-1.xx&oh=c8081a42652b20200f38d28340518c86&oe=61534B41");
+  }
+
+  #third-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent-arn2-2.xx.fbcdn.net/v/t1.6435-9/241006399_1853033948212821_8259818596764477989_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=0debeb&_nc_ohc=f18GX6kpp88AX_ptLwB&_nc_ht=scontent-arn2-2.xx&oh=9b968c9375c1ea003cf5cee422a53327&oe=6153FC34");
+  }
+
+  #fourth-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent-arn2-1.xx.fbcdn.net/v/t1.18169-9/13615328_10209916958111364_4736259471063995615_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_ohc=QS3QrDFa4ykAX9jWh0q&_nc_oc=AQl0sBMADUVFA-k9F-f12ZuNFUHMOn1ZfYGQiE2CgcYjojxElraOqZnq9zLFfP1Msrg&_nc_ht=scontent-arn2-1.xx&oh=f2a9173048ed5adc026df93d7c66bd9f&oe=61567977");
+  }
+  
+  .my-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  #navigation {
+    position: fixed;
+
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+  }
+  
+.nav-style {
+    color: white;
+}
